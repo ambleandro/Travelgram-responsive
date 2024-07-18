@@ -1,11 +1,25 @@
 #gallery {
-  padding-inline: 2rem;
+  max-width: 1280px;
+  margin-inline: auto;
+  padding-inline: 1rem;
   gap: 1rem;
+  justify-items: center;
 
   grid-template-columns: repeat(auto-fill, minmax(286px, 1fr));
 
   & img {
-    width: 286px;
-    height: 286px;
+    max-width: 328px;
+    max-height: 328px;
+  }
+}
+
+@media (width >= 80em) {
+  #gallery {
+    padding-inline: 2rem;
+
+    & img {
+      max-width: 286px;
+      max-height: 286px;
+    }
   }
 }

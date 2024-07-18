@@ -2,7 +2,7 @@
   max-width: 1280px;
   margin-inline: auto;
   background: var(--surface-color);
-  padding-inline: 2rem;
+  padding-inline: 1rem;
   font: var(--fw-regular) var(--fs-sm)/170% var(--ff-po);
 
   & .profile img {
@@ -41,5 +41,11 @@
     gap: 2rem;
     margin-right: auto;
     display: flex;
+  }
+}
+
+@media (width >= 80em) {
+  #info {
+    padding-inline: 2rem;
   }
 }

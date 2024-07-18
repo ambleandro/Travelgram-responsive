@@ -3,10 +3,16 @@ header {
   margin-inline: auto;
   justify-content: space-between;
   background: var(--surface-color);
-  padding-inline: 2rem;
+  padding-inline: 1rem;
 
   & img:nth-child(3){
     width: 2.5rem;
     height: 2.5rem;
+  }
+}
+
+@media (width >= 80em) {
+  header {
+    padding-inline: 2rem;
   }
 }
