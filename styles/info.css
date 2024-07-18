@@ -4,6 +4,11 @@
   background: var(--surface-color);
   padding-inline: 1rem;
   font: var(--fw-regular) var(--fs-sm)/170% var(--ff-po);
+  color: var(--text-color-secondary);
+
+  & h1 {
+    color: var(--text-color-primary);
+  }
 
   & .profile img {
     width: 176px;

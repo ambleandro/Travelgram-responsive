@@ -19,10 +19,8 @@ footer {
   }
 }
 
-@media (width >= 80em) {
-  footer {
-    padding-inline: 2rem;
-  }
+& a {
+  font: var(--fw-regular) var(--fs-sm)/150% var(--ff-po);
 }
 
 @media (width >= 80em) {
