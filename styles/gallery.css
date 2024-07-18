@@ -1,0 +1,11 @@
+#gallery {
+  padding-inline: 2rem;
+  gap: 1rem;
+
+  grid-template-columns: repeat(auto-fill, minmax(286px, 1fr));
+
+  & img {
+    width: 286px;
+    height: 286px;
+  }
+}
