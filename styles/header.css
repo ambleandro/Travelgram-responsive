@@ -1,0 +1,12 @@
+header {
+  max-width: 1280px;
+  margin-inline: auto;
+  justify-content: space-between;
+  background: var(--surface-color);
+  padding-inline: 2rem;
+
+  & img:nth-child(3){
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+}

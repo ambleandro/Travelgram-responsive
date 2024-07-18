@@ -14,4 +14,47 @@
     --text-color-secondary: #6C6C6C;
 
     --ff-po: "Poppins", sans-serif;
+
+    --fs-lg: 2rem;
+    --fs-md: 1rem;
+    --fs-sm: .875rem;
+
+    --fw-bold: 700;
+    --fw-regular: 400;
+
+    --px-lg: 2rem;
+
+    --py-base: 1rem;
+    --py-lg: 1.25rem;
+    --py-xl: 2rem;
+}
+
+html {
+  font-family: "Poppins", sans-serif;
+  overflow-x: hidden;
+}
+
+h1 {
+  font: var(--fw-bold) var(--fs-lg)/125% var(--ff-po);
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  font-size: var(--fs-md);
+  color: var(--text-color-secondary);
+}
+
+
+
+@media (width >= 80em) {
+
+  :root{
+    --py-base: 1.25rem;
+    --py-lg: 1.5rem;
+    --py-xl: 2rem;
+  }
 }
